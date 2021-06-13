@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Rock | Paper | Scissor</h1>
+        </header>
+        <div class="choices">
+                <img onclick="rpsGame(this)" id="rock" src="rock.png" alt="Rock" width="100px" height="100px">
+                <img onclick="rpsGame(this)" id="paper" src="paper.png" alt="Paper" width="100px" height="100px">
+                <img onclick="rpsGame(this)" id="scissors" src="Scissors.png" alt="scissors" width="100px" height="100px">
+        </div>
+        <div class="reset"></div>
+    </div>
+    <div class="history"></div>
+    <button onclick="condition()" > <h4> Touch here</h4>  </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

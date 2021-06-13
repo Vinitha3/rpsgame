@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(brownpic.jpg);
+  background-repeat: no repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  cursor: alias;
+}
+
+.wrapper>* {
+  margin: 16px;
+}
+
+.choices {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  transform: translateY(100%);
+  flex-wrap: wrap;
+}
+
+img {
+  cursor: pointer;
+}
+
+button {
+  margin-top: 10px;
+  padding: 16px;
+  border: 1px solid white;
+  background-color: blue;
+  color: white;
+  transform: translateY(400px);
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  top: 5px;
+}
+
+.result {
+  cursor: alias;
+}
+
+.history {
+  transform: translateY(300px);
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: red;
+  background-color: black;
+}
+
+
+
+
+
+
+@media screen and (max-width: 300px) {
+    button {
+        margin-top: 300px;
+    }
+}
